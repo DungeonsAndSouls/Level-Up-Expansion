@@ -180,37 +180,37 @@
                 </node>						
 				
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
-<!--------------------- Warlock - SpellSet --------------------->
+<!--------------------- Warlock - Spells --------------------->
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->						
                 <node id="SpellList"><!--Cantrips-->
-                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_ChillTouch;Cantrip_CreateBonfire_SLFE;Projectile_EldritchBlast;Target_Friends;Cantrip_Frostbite_SLFE;Cantrip_GreenFlameBlade_SLFE;Cantrip_Infestation_SLFE;SCAG_LightningLure_SLFE;Cantrip_MageHand_SLFE;TCoE_MindSliver_SLFE;Target_MinorIllusion;Projectile_PoisonSpray;SCAG_SwordBurst_SLFE;Cantrip_ThunderClap_SLFE;Cantrip_TollTheDead_SLFE;Target_TrueStrike;Ichor_LastRites"/>
-                    <attribute id="UUID" type="guid" value="178e8ffc-3ebf-43cd-b699-d467f6459c67"/>
+                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_BoomingBlade;Target_ChillTouch;Target_CreateBonfire;Projectile_EldritchBlast;Target_Friends;Target_Frostbite;Target_GreenFlameBlade;Target_LightningLure;Target_MageHand;Target_MagicStone;Target_MindSliver;Target_MinorIllusion;Target_Prestidigitation;Shout_SwordBurst;Shout_Thunderclap;Target_TollTheDead;Target_TrueStrike"/>
+                    <attribute id="UUID" type="guid" value="f5c4af9c-5d8d-4526-9057-94a4b243cd40"/>
                 </node>
                 <node id="SpellList"><!--1st Lvl-->
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;XGtE_CauseFear_SLFE;Target_CharmPerson;Shout_ComprehendLanguages;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;PHB_UnseetServant_SLFE;Projectile_WitchBolt;GH_CreepingTouch_SLFE"/>
-                    <attribute id="UUID" type="guid" value="82beba85-9f9e-4cf1-ba1d-b591f0a9ab87"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="8f686ce5-40a5-4fa0-b429-09146297281b"/>
                 </node>
                 <node id="SpellList"><!--2nd Lvl-->
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="45c18ec0-5379-42a5-a6ad-5e9c9cc10606"/>
+                    <attribute id="UUID" type="guid" value="f523450f-581c-4eba-b006-321bcc6337af"/>
                 </node>
                 <node id="SpellList"><!--3rd Lvl-->
-                    <attribute id="Spells" type="LSString" value="Warlock_SanguinePoppet_SLFE;Warlock_Counterspell_SLFE;Warlock_DispelMagic_SLFE;Warlock_Tongues_SLFE;Warlock_VampiricTouch"/>
-                    <attribute id="UUID" type="guid" value="17af1283-bb9b-47a4-8bb3-6b5914cee0b6"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="b9d6ed1f-e396-4891-a3bd-73ad19d200cc"/>
                 </node>
                 <node id="SpellList"><!--4th Lvl-->
-                    <attribute id="Spells" type="LSString" value="Warlock_Blight_SLFE;Warlock_DimensionDoor_SLFE"/>
-                    <attribute id="UUID" type="guid" value="84ec21bf-fd9a-4ec6-9a8a-eb6a48ac17ec"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="ba226d6d-708b-434a-b70a-7776a7910258"/>
                 </node>
                 <node id="SpellList"><!--5th Lvl-->
                     <attribute id="Spells" type="LSString" value=""/>
-                    <attribute id="UUID" type="guid" value="4a176f3d-303d-4b71-a053-854c22fab660"/>
+                    <attribute id="UUID" type="guid" value="8e349ca5-8fac-4929-8cd1-2ab91036faca"/>
                 </node>										
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
 <!--------------------- Hexblade - SpellSet --------------------->
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->			
                 <node id="SpellList"><!--1st Lvl-->
-                    <attribute id="Spells" type="LSString" value="SLFE_Hexblade_WrathfulSmite;SLFE_HexBlade_Shield;SLFE_Warlock_ArmsOfHadar;SLFE_Warlock_HellishRebuke;SLFE_Warlock_WitchBolt;SLFE_Warlock_ExpeditiousRetreat;SLFE_Warlock_CharmPerson;SLFE_Warlock_ComprehendLanguages;SLFE_Warlock_ArmorOfAgathys;SLFE_Warlock_ProtectionFromEvilAndGood;SLFE_Warlock_Hex;SLFE_Warlock_CauseFear"/>
+                    <attribute id="Spells" type="LSString" value="SLFE_Hexblade_WrathfulSmite;SLFE_HexBlade_Shield;SLFE_Warlock_ArmsOfHadar;SLFE_Warlock_HellishRebuke;SLFE_Warlock_WitchBolt;SLFE_Warlock_ExpeditiousRetreat;SLFE_Warlock_CharmPerson;SLFE_Warlock_ComprehendLanguages;SLFE_Warlock_ArmorOfAgathys;SLFE_Warlock_ProtectionFromEvilAndGood;SLFE_Warlock_Hex;SLFE_Warlock_CauseFear;Projectile_PoisonSpray"/>
                     <attribute id="UUID" type="guid" value="25f38de5-8427-4d32-b131-c2eccb905852"/>
                 </node>
                 <node id="SpellList"><!--2nd Lvl-->
@@ -256,23 +256,23 @@
 <!--------------------- Celestial - SpellSet --------------------->
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->			
                 <node id="SpellList"><!--1st Lvl-->
-                    <attribute id="Spells" type="LSString" value="SLFE_Celestial_CureWounds;Celestial_GuidingBolt;SLFE_Warlock_ArmsOfHadar;SLFE_Warlock_HellishRebuke;SLFE_Warlock_WitchBolt;SLFE_Warlock_ExpeditiousRetreat;SLFE_Warlock_CharmPerson;SLFE_Warlock_ComprehendLanguages;SLFE_Warlock_ArmorOfAgathys;SLFE_Warlock_ProtectionFromEvilAndGood;SLFE_Warlock_Hex;SLFE_Warlock_CauseFear"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="d36a63c6-1e5e-4291-92bf-915db8322c76"/>
                 </node>
                 <node id="SpellList"><!--2nd Lvl-->
-                    <attribute id="Spells" type="LSString" value="Celestial_LesserRestoration_SLFE;Warlock_CloudOfDaggers_SLFE;Warlock_Shatter_SLFE;Warlock_CrownOfMadness_SLFE;Warlock_Darkness_SLFE;Warlock_HoldPerson_SLFE;Warlock_Invisibility_SLFE;Warlock_MirrorImage_SLFE;Warlock_MistyStep_SLFE;Warlock_RayOfEnfeeblement_SLFE;Warlock_ShadowBlade_SLFE;Warlock_ArmsOfHadar_SLFE;Warlock_WitchBolt_SLFE;Warlock_ExpeditiousRetreat_SLFE;Warlock_CharmPerson_SLFE;Warlock_HellishRebuke_SLFE;Warlock_ProtectionFromEvilAndGood_SLFE;Warlock_ComprehendLanguages_SLFE;Warlock_ArmorOfAgathys_SLFE;Warlock_Cause_Fear_SLFE;Warlock_Hex_SLFE"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="b7dfc95d-af67-43b6-8f52-6b038efab65d"/>
                 </node>
                 <node id="SpellList"><!--3rd Lvl-->
-                    <attribute id="Spells" type="LSString" value=";Target_CureWounds_3_SLFE;Warlock_SpeakWithDead_SLFE;Warlock_Counterspell_SLFE;Warlock_DispelMagic_SLFE;Warlock_CauseFear_SLFE;Warlock_Fly_SLFE;Warlock_GaseousForm_SLFE;Warlock_HungerOfHadar_SLFE;Warlock_HypnoticPattern_SLFE;Warlock_RemoveCurse_SLFE;Warlock_VampiricTouch_SLFE;Warlock_Spirit_Shroud_SLFE;Warlock_CloudOfDaggers_SLFE;Warlock_Shatter_SLFE;Warlock_CrownOfMadness_SLFE;Warlock_Darkness_SLFE;Warlock_HoldPerson_SLFE;Warlock_Invisibility_SLFE;Warlock_MirrorImage_SLFE;Warlock_MistyStep_SLFE;Warlock_RayOfEnfeeblement_SLFE;Warlock_ShadowBlade_SLFE;Warlock_ArmsOfHadar_SLFE;Warlock_WitchBolt_SLFE;Warlock_ExpeditiousRetreat_SLFE;Warlock_CharmPerson_SLFE;Warlock_HellishRebuke_SLFE;Warlock_ProtectionFromEvilAndGood_SLFE;Warlock_ComprehendLanguages_SLFE;Warlock_ArmorOfAgathys_SLFE;Warlock_Cause_Fear_SLFE;Warlock_Hex_SLFE"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="08d44b93-44db-410d-8e58-742c01aea695"/>
                 </node>	
                 <node id="SpellList"><!--4th Lvl-->
-                    <attribute id="Spells" type="LSString" value="Target_CureWounds_4_SLFE"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="0801c3df-d767-4d5f-94af-b8ad20071450"/>
                 </node>	
                 <node id="SpellList"><!--5th Lvl-->
-                    <attribute id="Spells" type="LSString" value="Target_CureWounds_5_SLFE"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="fb0b910e-4409-42ac-8f55-21206883bbd1"/>
                 </node>							
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
@@ -387,27 +387,27 @@
                     <attribute id="UUID" type="guid" value="09a1275b-e960-4a8b-99a5-ea0a641c2af1"/>
                 </node>							
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
-<!--------------------- The First Vampire  - SpellSet --------------------->
+<!--------------------- Archfey  - SpellSet --------------------->
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->			
                 <node id="SpellList"><!--1st Lvl-->
                     <attribute id="Spells" type="LSString" value="Shout_FalseLife;Target_Bane;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Target_CharmPerson;Target_Command_Halt;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
-                    <attribute id="UUID" type="guid" value="29178cb4-45d8-484f-a798-ee45c7481fd0"/>
+                    <attribute id="UUID" type="guid" value="f0eca672-6c70-47bf-bed1-09b1590d6905"/>
                 </node>		
                 <node id="SpellList"><!--2nd Lvl-->
                     <attribute id="Spells" type="LSString" value="Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Halt;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
-                    <attribute id="UUID" type="guid" value="f140b9d9-447b-41b3-bea7-ed29349de037"/>
+                    <attribute id="UUID" type="guid" value="8352f207-bdf9-4622-a730-f7e4e71a3b19"/>
                 </node>		
                 <node id="SpellList"><!--3rd Lvl-->
-                    <attribute id="Spells" type="LSString" value="Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Halt;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
-                    <attribute id="UUID" type="guid" value="c12c8c21-287e-40a6-827d-fb616969bbc9"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="13eb1b6c-eb44-4058-95cd-5518a2e9c39e"/>
                 </node>
                 <node id="SpellList"><!--4th Lvl-->
-                    <attribute id="Spells" type="LSString" value="Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Halt;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
-                    <attribute id="UUID" type="guid" value="5016397a-95c2-4806-8888-04e43418166c"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="7ecf1b30-197b-477b-8ca8-51e01a8dc437"/>
                 </node>
                 <node id="SpellList"><!--5th Lvl-->
-                    <attribute id="Spells" type="LSString" value="Target_Blindness;Target_CloudOfDaggers;Target_CrownOfMadness;Target_Darkness;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_MistyStep;Projectile_RayOfEnfeeblement;Projectile_ScorchingRay;Target_Shatter;Shout_ArmorOfAgathys;Shout_ArmsOfHadar;Zone_BurningHands;Target_CharmPerson;Target_Command_Halt;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;Projectile_WitchBolt"/>
-                    <attribute id="UUID" type="guid" value="41845440-1031-44eb-aba4-a7b89bbe2dd7"/>
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="b096e585-7611-483b-9910-f19f64444908"/>
                 </node>	
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
 <!--------------------- The Parasite  - SpellSet --------------------->
@@ -552,12 +552,12 @@
 <!--------------------- Artificer - SpellSet --------------------->
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->					
                 <node id="SpellList"><!--Cantrips-->
-                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Cantrip_CreateBonfire_SLFE;Target_DancingLights;Projectile_FireBolt;Target_SpareTheDying_SLFE;Target_Guidance;Target_Light;Target_MageHand_SLFE;;Target_ThornWhip;Cantrip_Frostbite_SLFE;Cantrip_Mending_SLFE;Projectile_PoisonSpray;Projectile_RayOfFrost;Target_Resistance;SLFE_SwordBurst;Cantrip_ThunderClap_SLFE"/>
+                    <attribute id="Spells" type="LSString" value="Projectile_AcidSplash;Target_BoomingBlade;Target_CreateBonfire;Target_DancingLights;Projectile_FireBolt;Target_Frostbite;Target_GreenFlameBlade;Target_Guidance;Target_Light;Target_LightningLure;Target_MageHand;Target_MagicStone;Target_Mending;Projectile_PoisonSpray;Target_Prestidigitation;Projectile_RayOfFrost;Target_Resistance;Target_ShockingGrasp;Target_SpareTheDying;Shout_SwordBurst;Target_ThornWhip;Shout_Thunderclap"/>
                     <attribute id="UUID" type="guid" value="8137bae1-ff91-466b-b794-593fd647ced6"/>				
                 </node>	
                 <node id="SpellList"><!--1st Lvl-->
-                    <attribute id="Spells" type="LSString" value="Artificer_CrimsonLash_SLFE;NeutralizeAura_SLFE;Target_CureWounds;Shout_DisguiseSelf;Shout_ExpeditiousRetreat;Target_FaerieFire;Shout_FalseLife;Shout_FeatherFall;Target_Grease;Target_Identify;Target_Jump;Target_Longstrider;TashasCausticBrew_SLFE"/>
-                    <attribute id="UUID" type="guid" value="622e368e-180e-4422-9837-2230e9f19f37"/>				
+                    <attribute id="Spells" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="03b882c1-f797-4259-90c6-ab2d9725fd51"/>				
                 </node>	
                 <node id="SpellList"><!--2nd Lvl-->
                     <attribute id="Spells" type="LSString" value="Shout_Aid;SLFE_AlterSelf;Shout_Blur;Target_Darkvision;Target_EnhanceAbility;Target_EnlargeReduce_SLFE;Target_HeatMetal;Target_Invisibility;Target_LesserRestoration;Target_Levitate_SLFE;Shout_MagicWeapon_SLFE;Target_ProtectionFromPoison;SpiderClimb_SLFE;Target_Web"/>
@@ -709,23 +709,23 @@
 <!--------------------- Profane Soul - SpellSet --------------------->
 <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->					
                 <node id="SpellList"><!--Cantrip Lvl-->
-                    <attribute id="Spells" type="LSString" value="Shout_BladeWard;Target_ChillTouch;Cantrip_CreateBonfire_SLFE;Projectile_EldritchBlast;Target_Friends;Cantrip_Frostbite_SLFE;Cantrip_GreenFlameBlade_SLFE;Cantrip_Infestation_SLFE;SCAG_LightningLure_SLFE;Cantrip_MageHand_SLFE;TCoE_MindSliver_SLFE;Target_MinorIllusion;Projectile_PoisonSpray;Cantrip_ThunderClap_SLFE;XGtE_TollTheDead_SLFE;Target_TrueStrike"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="63ad9455-2515-4e87-97d3-45f3c9a95b69"/>
                 </node>
                 <node id="SpellList"><!--1st Lvl-->
-                    <attribute id="Spells" type="LSString" value="Shout_ArmorOfAgathys;Shout_ArmsOfHadar;XGtE_CauseFear_SLFE;Target_CharmPerson;Shout_ComprehendLanguages;Shout_ExpeditiousRetreat;Shout_HellishRebuke;Target_Hex;Target_ProtectionFromEvilAndGood;PHB_UnseetServant_SLFE;Projectile_WitchBolt;GH_CreepingTouch_SLFE"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="8aa80cce-a989-4ca7-9e24-d19a5de0c0af"/>
                 </node>
                 <node id="SpellList"><!--2nd Lvl-->
-                    <attribute id="Spells" type="LSString" value="Warlock_CloudOfDaggers_SLFE; Warlock_Shatter_SLFE;Warlock_CrownOfMadness_SLFE;Warlock_Darkness_SLFE;Warlock_HoldPerson_SLFE;Warlock_Invisibility_SLFE;Warlock_MirrorImage_SLFE;Warlock_MistyStep_SLFE;Warlock_RayOfEnfeeblement_SLFE;Warlock_ShadowBlade_SLFE;Warlock_ArmsOfHadar_SLFE;Warlock_WitchBolt_SLFE;Warlock_ExpeditiousRetreat_SLFE;Warlock_CharmPerson_SLFE;Warlock_HellishRebuke_SLFE;Warlock_ProtectionFromEvilAndGood_SLFE;Warlock_ComprehendLanguages_SLFE;Warlock_ArmorOfAgathys_SLFE;Warlock_Cause_Fear_SLFE;Warlock_Hex_SLFE"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="2554627d-d114-4898-a382-d3e94aba58f3"/>
                 </node>
                 <node id="SpellList"><!--3rd Lvl-->
-                    <attribute id="Spells" type="LSString" value="Warlock_Counterspell_SLFE;Warlock_DispelMagic_SLFE;Warlock_CauseFear_SLFE;Warlock_Fly_SLFE;Warlock_GaseousForm_SLFE;Warlock_HungerOfHadar_SLFE;Warlock_HypnoticPattern_SLFE;Warlock_RemoveCurse_SLFE;Warlock_VampiricTouch_SLFE;Warlock_Spirit_Shroud_SLFE;Warlock_CloudOfDaggers_SLFE;Warlock_Shatter_SLFE;Warlock_CrownOfMadness_SLFE;Warlock_Darkness_SLFE;Warlock_HoldPerson_SLFE;Warlock_Invisibility_SLFE;Warlock_MirrorImage_SLFE;Warlock_MistyStep_SLFE;Warlock_RayOfEnfeeblement_SLFE;Warlock_ShadowBlade_SLFE;Warlock_ArmsOfHadar_SLFE;Warlock_WitchBolt_SLFE;Warlock_ExpeditiousRetreat_SLFE;Warlock_CharmPerson_SLFE;Warlock_HellishRebuke_SLFE;Warlock_ProtectionFromEvilAndGood_SLFE;Warlock_ComprehendLanguages_SLFE;Warlock_ArmorOfAgathys_SLFE;Warlock_Cause_Fear_SLFE;Warlock_Hex_SLFE"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="7dc0ea9f-41ab-4551-a08d-cc6483bb799a"/>
                 </node>	
                 <node id="SpellList"><!--4th Lvl-->
-                    <attribute id="Spells" type="LSString" value="Warlock_Counterspell_SLFE;Warlock_DispelMagic_SLFE;Warlock_CauseFear_SLFE;Warlock_Fly_SLFE;Warlock_GaseousForm_SLFE;Warlock_HungerOfHadar_SLFE;Warlock_HypnoticPattern_SLFE;Warlock_RemoveCurse_SLFE;Warlock_VampiricTouch_SLFE;Warlock_Spirit_Shroud_SLFE;Warlock_CloudOfDaggers_SLFE;Warlock_Shatter_SLFE;Warlock_CrownOfMadness_SLFE;Warlock_Darkness_SLFE;Warlock_HoldPerson_SLFE;Warlock_Invisibility_SLFE;Warlock_MirrorImage_SLFE;Warlock_MistyStep_SLFE;Warlock_RayOfEnfeeblement_SLFE;Warlock_ShadowBlade_SLFE;Warlock_ArmsOfHadar_SLFE;Warlock_WitchBolt_SLFE;Warlock_ExpeditiousRetreat_SLFE;Warlock_CharmPerson_SLFE;Warlock_HellishRebuke_SLFE;Warlock_ProtectionFromEvilAndGood_SLFE;Warlock_ComprehendLanguages_SLFE;Warlock_ArmorOfAgathys_SLFE;Warlock_Cause_Fear_SLFE;Warlock_Hex_SLFE"/>
+                    <attribute id="Spells" type="LSString" value=""/>
                     <attribute id="UUID" type="guid" value="7dc0ea9f-41ab-4551-a08d-cc6483bb799a"/>
                 </node>	
 
