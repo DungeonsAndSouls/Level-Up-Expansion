@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="48"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="Shared_ActionResourceDefinitions_New_Stat_14_Description"/>
+                    <attribute id="DiceType" type="uint32" value="6"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ActionResourceDefinitions_New_Stat_14_DisplayName"/>
+                    <attribute id="Error" type="FixedString" value="Shared_ActionResourceDefinitions_New_Stat_14_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="HitDice"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="d59999b2-3e77-42f6-96e8-b021a17a9e1c"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="Some magic items require a creature to form a bond with them before their magical Properties can be used. This bond is called attunement, and certain items have a prerequisite for it. If the prerequisite is a class, a creature must be a member of that class to attune to the item. "/>
+                    <attribute id="DiceType" type="uint32" value="0"/>
+                    <attribute id="DisplayName" type="FixedString" value="Attunement"/>
+                    <attribute id="Error" type="FixedString" value="Shared_ActionResourceDefinitions_New_Stat_15_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="Attunement"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Never"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="a048e9e6-0b40-4dd6-99bb-01b5474320fd"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="ActionResourceDefinitions_New_Stat_8_Description"/>
+                    <attribute id="DiceType" type="uint32" value="4"/>
+                    <attribute id="DisplayName" type="FixedString" value="Martial Arts"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_8_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value=""/>
+                    <attribute id="MaxValue" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="MartialArts"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Never"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="f82e9e53-1391-4555-95b3-ad52c3b8e259"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>					
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="ActionResourceDefinitions_New_Stat_8_Description"/>
+                    <attribute id="DiceType" type="uint32" value="4"/>
+                    <attribute id="DisplayName" type="FixedString" value="Hemocraft Die"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_8_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="Hemocraft"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Never"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false"/>
+                    <attribute id="UUID" type="guid" value="2b7c448d-95df-46e6-836c-8ad68e662a08"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="ActionResourceDefinitions_New_Stat_9_Description"/>
+                    <attribute id="DiceType" type="uint32" value="0"/>
+                    <attribute id="DisplayName" type="FixedString" value="Blood Maledict"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_9_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="BloodMaledict"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="2c000059-1371-44c9-a003-93b19049ddac"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="ActionResourceDefinitions_New_Stat_10_Description"/>
+                    <attribute id="DiceType" type="uint32" value="0"/>
+                    <attribute id="DisplayName" type="FixedString" value="ActionResourceDefinitions_New_Stat_10_DisplayName"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_10_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="Mutagencraft"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="4f8bb7d9-5148-4be3-beb9-28109bf6af45"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="ActionResourceDefinitions_New_Stat_10_Description"/>
+                    <attribute id="DiceType" type="uint32" value="0"/>
+                    <attribute id="DisplayName" type="FixedString" value="ActionResourceDefinitions_New_Stat_10_DisplayName"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_10_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="ExaltedMutation"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="87a7ebea-350b-4fa8-a7e6-17d832ab557a"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>		
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="ActionResourceDefinitions_New_Stat_14_Description"/>
+                    <attribute id="DiceType" type="uint32" value="12"/>
+                    <attribute id="DisplayName" type="FixedString" value="Full-Blooded"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_14_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="FullBloodedDie"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="f77e0482-8020-4354-966e-4409b98e986c"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+                <node id="ActionResourceDefinition">
+                    <attribute id="Description" type="FixedString" value="You control the lycanthropic curse that now lives in your blood."/>
+                    <attribute id="DiceType" type="uint32" value="0"/>
+                    <attribute id="DisplayName" type="FixedString" value="Hybrid Form"/>
+                    <attribute id="Error" type="FixedString" value="ActionResourceDefinitions_New_Stat_19_Error"/>
+                    <attribute id="IsSpellResource" type="bool" value="false"/>
+                    <attribute id="MaxLevel" type="uint32" value="0"/>
+                    <attribute id="MaxValue" type="uint32" value="0"/>
+                    <attribute id="Name" type="FixedString" value="HybridForm"/>
+                    <attribute id="PartyActionResource" type="bool" value="false"/>
+                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
+                    <attribute id="UUID" type="guid" value="20881ad2-5c06-4797-846c-b1d430774083"/>
+                    <attribute id="UpdatesSpellPowerLevel" type="bool" value="false"/>
+                </node>
+
+            </children>
+        </node>
+    </region>
+</save>

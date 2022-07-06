@@ -1,0 +1,158 @@
+
+
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Starting Equipment  - Monk  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->	
+
+
+new entry "Monk_Kasaya"
+type "Armor"
+using "ARM_Robe_Body"
+data "RootTemplate" "0d611103-13f2-4ade-ae71-98232de2a04d"
+
+
+new entry "Monk_WristGuard"
+type "Armor"
+using "_Hand"
+data "RootTemplate" "c70d8bc8-6f4d-421a-8a93-68a9969400a3"
+data "ValueOverride" "20"
+
+new entry "Monk_Feiyue"
+type "Armor"
+using "ARM_Boots_Leather"
+data "RootTemplate" "10aace6e-74b6-491e-b00e-28e32bda30d3"
+
+new entry "Monk_Shortsword"
+type "Weapon"
+using "WPN_Shortsword"
+data "RootTemplate" "def9e4bf-70be-47da-8f23-b0506aaca042"
+data "ValueOverride" "300"
+data "Rarity" "Uncommon"
+data "DefaultBoosts" ""
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Starting Equipment  - Paladin  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->	
+
+
+
+
+
+
+
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Starting Equipment  - Artificer  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->	
+
+
+new entry "Artificer_Aegis"
+type "Armor"
+using "_Body"
+data "RootTemplate" "11ed8490-a412-475a-a349-73c5e6cdbddf"
+data "ArmorClass" "14"
+data "ValueOverride" "200"
+data "Weight" "19"
+data "Boosts" "Disadvantage(Skill,Stealth)"
+data "ArmorType" "ScaleMail"
+data "ObjectCategory" "MediumArmor"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+data "MinLevel" "1"
+data "Armor Class Ability" "Dexterity"
+data "Ability Modifier Cap" "2"
+data "Proficiency Group" "MediumArmor"
+
+new entry "Artificer_Gauntlets"
+type "Armor"
+using "_Hand"
+data "RootTemplate" "10f54e44-b862-4019-8a73-6768b06da765"
+data "ValueOverride" "50"
+data "Boosts" "RollBonus(SavingThrow, 1, Strength)"
+data "ObjectCategory" "SubArmor"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+data "MinLevel" "1"
+data "Proficiency Group" "LightArmor"
+
+new entry "Artificer_Boots"
+type "Armor"
+using "_Foot"
+data "RootTemplate" "973c05d0-469b-4029-8905-9dfdbb5c8d5e"
+data "ValueOverride" "200"
+data "Weight" "2"
+data "Boosts" "Skill(Athletics,1)"
+data "ArmorType" "Plate"
+data "ObjectCategory" "SubArmor"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+data "MinLevel" "1"
+data "Proficiency Group" "MediumArmor"
+
+
+
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Starting Equipment  - Blood Hunter  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->	
+
+
+new entry "BloodHunter_Mail"
+type "Armor"
+using "_Body"
+data "RootTemplate" "9b414a20-2023-40ae-b99c-ecbe74d579a0"
+data "ArmorClass" "14"
+data "ValueOverride" "200"
+data "Weight" "19"
+data "Boosts" "Disadvantage(Skill,Stealth)"
+data "ArmorType" "ScaleMail"
+data "ObjectCategory" "MediumArmor"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+data "MinLevel" "1"
+data "Armor Class Ability" "Dexterity"
+data "Ability Modifier Cap" "2"
+data "Proficiency Group" "MediumArmor"
+
+
+new entry "BloodHunter_Gauntlet"
+type "Armor"
+using "_Hand"
+data "RootTemplate" "3cf09ff9-4234-4bda-9868-e5149af8efd4"
+data "ValueOverride" "50"
+data "Boosts" "RollBonus(SavingThrow, 1, Strength)"
+data "ObjectCategory" "SubArmor"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+data "MinLevel" "1"
+data "Proficiency Group" "LightArmor"
+
+new entry "BloodHunter_Boots"
+type "Armor"
+using "_Foot"
+data "RootTemplate" "035df6c1-33b6-4b78-82e3-19dc3b45aa12"
+data "ValueOverride" "200"
+data "Weight" "2"
+data "Boosts" "Skill(Athletics,1)"
+data "ArmorType" "Plate"
+data "ObjectCategory" "SubArmor"
+data "MinAmount" "1"
+data "MaxAmount" "1"
+data "Priority" "1"
+data "MinLevel" "1"
+data "Proficiency Group" "MediumArmor"
+
+
+new entry "BloodHunter_Mantle"
+type "Armor"
+using "_Back"
+data "RootTemplate" "ebbe8b10-b901-4614-ac7b-77e8c8e1a016"
+data "ArmorType" "Cloth"
+
+

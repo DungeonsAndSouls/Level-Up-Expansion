@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="21"/>
+    <region id="AbilityDistributionPresets">
+        <node id="root">
+            <children>
+                <node id="AbilityDistributionPreset"><!--Blood Hunter-->
+                    <attribute id="Charisma" type="int32" value="8"/>
+                    <attribute id="ClassUUID" type="guid" value="695b7ce8-0525-4881-8c4c-49fcf805afb9"/>
+                    <attribute id="Constitution" type="int32" value="14"/>
+                    <attribute id="Dexterity" type="int32" value="10"/>
+                    <attribute id="Intelligence" type="int32" value="15"/>
+                    <attribute id="Strength" type="int32" value="14"/>
+                    <attribute id="UUID" type="guid" value="4971e311-66fe-41ac-8b91-1b621c4a78fa"/>
+                    <attribute id="Wisdom" type="int32" value="10"/>
+                </node>
+                <node id="AbilityDistributionPreset"><!--Artificer-->
+                    <attribute id="Charisma" type="int32" value="8"/>
+                    <attribute id="ClassUUID" type="guid" value="58f0253f-a933-4f7c-9918-d32efc3240b4"/>
+                    <attribute id="Constitution" type="int32" value="14"/>
+                    <attribute id="Dexterity" type="int32" value="10"/>
+                    <attribute id="Intelligence" type="int32" value="15"/>
+                    <attribute id="Strength" type="int32" value="14"/>
+                    <attribute id="UUID" type="guid" value="f9af1ecb-69d0-491a-8be8-73827a9f83e4"/>
+                    <attribute id="Wisdom" type="int32" value="10"/>
+                </node>
+                <node id="AbilityDistributionPreset"><!--Monk-->
+                    <attribute id="Charisma" type="int32" value="10"/>
+                    <attribute id="ClassUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f97b"/>
+                    <attribute id="Constitution" type="int32" value="15"/>
+                    <attribute id="Dexterity" type="int32" value="14"/>
+                    <attribute id="Intelligence" type="int32" value="10"/>
+                    <attribute id="Strength" type="int32" value="8"/>
+                    <attribute id="UUID" type="guid" value="428567df-b3c8-4101-b8f2-0b3677c96d0f"/>
+                    <attribute id="Wisdom" type="int32" value="14"/>
+                </node>
+
+
+
+
+            </children>
+        </node>
+    </region>
+</save>

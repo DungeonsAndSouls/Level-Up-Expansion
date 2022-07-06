@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="48"/>
+    <region id="PassiveLists">
+        <node id="root">
+            <children>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_GreatWeaponFighting,FightingStyle_Protection,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="da3203d8-750a-4de1-b8eb-1eccfccddf46"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="MenacingAttack,PushingAttack,Rally,Riposte"/>
+                    <attribute id="UUID" type="guid" value="e56262e2-6498-45d7-9819-7893dcb2dea1"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="FightingStyle_Archery,FightingStyle_Defense,FightingStyle_Dueling,FightingStyle_TwoWeaponFighting"/>
+                    <attribute id="UUID" type="guid" value="a0bdb113-1cce-45ac-94fb-72d4c3f207e9"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="ColossusSlayer,GiantKiller,HordeBreaker"/>
+                    <attribute id="UUID" type="guid" value="26b53d40-13eb-4db6-80f4-bde7bd09c52d"/>
+                </node>
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="AgonizingBlast,ArmorOfShadows,BeastSpeech,BeguilingInfluence,DevilsSight,FiendishVigor,MaskOfManyFaces,RepellingBlast,ThiefOfFiveFates"/>
+                    <attribute id="UUID" type="guid" value="333fb1b0-9398-4ca8-953e-6c0f9a59bbed"/>
+                </node>
+
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Proficiency_Battleaxes,Proficiency_Clubs,Proficiency_Daggers,Proficiency_Glaives,Proficiency_Greatswords,Proficiency_HandCrossbows,Proficiency_Handaxes,Proficiency_HeavyCrossbows,Proficiency_Javelins,Proficiency_LightCrossbows,Proficiency_LightHammers,Proficiency_Longbows,Proficiency_Longswords,Proficiency_Maces,Proficiency_Quarterstaffs,Proficiency_Rapiers,Proficiency_Scimitars,Proficiency_Shortbows,Proficiency_Shortswords,Proficiency_Sickles,Proficiency_Slings,Proficiency_Spears,Proficiency_Warhammers"/>
+                    <attribute id="UUID" type="guid" value="f21e6b94-44e8-4ae0-a6f1-0c81abac03a2"/>
+                </node>
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Fighter - Arcane Archer  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->		
+                <node id="PassiveList"><!--Arcane Shot-->
+                    <attribute id="Passives" type="LSString" value="ArcaneShot_BanishingArrow_SLFE,ArcaneShot_BeguilingArrow_SLFE, ArcaneShot_BurstingArrow_SLFE,ArcaneShot_EnfeenblingArrow_SLFE, ArcaneShot_GraspingArrow_SLFE,ArcaneShot_PiercingArrow_SLFE,ArcaneShot_SeekingArrow_SLFE, ArcaneShot_ShadowArrow_SLFE"/>
+                    <attribute id="UUID" type="guid" value="bdbe2dfc-e788-4626-b7fb-f459ebdf8cfe"/>
+                </node>
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Ranger --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->					
+                <node id="PassiveList"><!--Blood Rites-->
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="0d51f3f4-322f-4596-b3dd-9ab6f8505af3"/>
+                </node>	
+                <node id="PassiveList"><!--Favored Enemy or Favored Foe-->
+                    <attribute id="Passives" type="LSString" value="FavoredEnemy_BountyHunter,FavoredEnemy_KeeperOfTheVeil,FavoredEnemy_MageBreaker,FavoredEnemy_RangerKnight,FavoredEnemy_SanctifiedStalker,Ranger_FavoredFoe_SLFE"/>
+                    <attribute id="UUID" type="guid" value="d0f13dda-eb37-41f5-aea5-2683f0229e2e"/>
+                </node>	
+                <node id="PassiveList"><!--Deft or Natural Explorer-->
+                    <attribute id="Passives" type="LSString" value="NaturalExplorer_BeastTamer,NaturalExplorer_UrbanTracker,NaturalExplorer_WastelandWander_Cold,NaturalExplorer_WastelandWander_Fire,NaturalExplorer_WastelandWander_Poison"/>
+                    <attribute id="UUID" type="guid" value="72c63024-60af-486e-a180-c7aeee5d77c1"/>
+                </node>				
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Wizard - Blood Magic --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->					
+                <node id="PassiveList"><!--Blood Rites-->
+                    <attribute id="Passives" type="LSString" value="SLFE_BloodFocus,SLFE_BloodRitual,SLFE_BloodSpell,SLFE_FortitudeofBlood,SLFE_PhantomVigor,SLFE_PotentBlood,SLFE_SilenceThePain,SLFE_StaunchTheWound"/>
+                    <attribute id="UUID" type="guid" value="0625da1b-e4f6-4bd1-acf5-a76a5da92513"/>
+                </node>	
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Artificer - Armorer --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->					
+                <node id="PassiveList"><!--Armor Model-->
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="db180093-46b7-4850-a37b-7264f201356a"/>
+                </node>	
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Artificer - Blade Dancer --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->					
+                <node id="PassiveList"><!--Forge Ballad-->
+                    <attribute id="Passives" type="LSString" value="Grim_ForgeBallad,Serene_ForgeBallad,Benevolent_ForgeBallad"/>
+                    <attribute id="UUID" type="guid" value="9a471583-e54c-4d84-a6cb-7478a94fa2e9"/>
+                </node>					
+				
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Blood Hunter  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->					
+                <node id="PassiveList"><!--Blood Maledict-->
+                    <attribute id="Passives" type="LSString" value="BloodCurse_OfTheAnxious_SLFE,BloodCurse_OfBinding_SLFE,BloodCurse_OfBloatedAgony_SLFE,BloodCurse_OfExposure_SLFE,BloodCurse_OfTheEyeless_SLFE,BloodCurse_OfTheFallenPuppet_SLFE,BloodCurse_OfTheMarked_SLFE,BloodCurse_OfTheMuddledMind_SLFE"/>
+                    <attribute id="UUID" type="guid" value="914f7dc0-9c05-47f4-9a02-9a78b4113c06"/>
+                </node>	
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="RiteOfTheFlame,RiteOfTheFrozen,RiteOfTheStorm"/>
+                    <attribute id="UUID" type="guid" value="385174ca-7c79-4073-899a-a20727f54df0"/>
+                </node>		
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="RiteOfTheCorrosion,RiteOfTheArcanus,RiteOfTheSacrosanct,RiteOfTheVirulent"/>
+                    <attribute id="UUID" type="guid" value="3e30782d-d3ff-42bd-8537-98cb86b04992"/>
+                </node>
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Blood Hunter - Profane Soul  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->						
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Revealed_Arcana_The_Archfey,evealed_Arcana_The_Celestial,Revealed_Arcana_The_Fiend,Revealed_Arcana_The_Great_Old_One,Revealed_Arcana_The_Hexblade,Revealed_Arcana_The_Undying"/>
+                    <attribute id="UUID" type="guid" value="e820f488-7dfd-4a42-9080-e7b6d1033fdb"/>
+                </node>	
+                <node id="PassiveList">
+                    <attribute id="Passives" type="LSString" value="Unsealed_Arcana_The_Archfey,Unsealed_Arcana_The_Celestial,Unsealed_Arcana_The_Fiend,Unsealed_Arcana_The_Great_Old_One,Unsealed_Arcana_The_Hexblade,Unsealed_Arcana_The_Undying"/>
+                    <attribute id="UUID" type="guid" value="76a630d6-83f4-4191-a33a-7aa025c85976"/>
+                </node>				
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Warlock --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->	
+                <node id="PassiveList"><!--PactBoon-->
+                    <attribute id="Passives" type="LSString" value="PactOfTheChain,PactOfTheBlade,PactOfTheTome"/>
+                    <attribute id="UUID" type="guid" value="8d8ac513-c7c8-4f8b-b67f-5a9a14741aae"/>
+                </node>				
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Warlock - Mystic Arcanum  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->				
+                <node id="PassiveList"><!--6th Level-->
+                    <attribute id="Passives" type="LSString" value="MysticArcanum_LVL6_CircleOfDeath_SLFE;"/>
+                    <attribute id="UUID" type="guid" value="8fb90060-fd46-4362-a80d-a7829808a7bd"/>
+                </node>
+                <node id="PassiveList"><!--7th Level-->
+                    <attribute id="Passives" type="LSString" value="MysticArcanum_LVL7_FingerOfDeath_SLFE;"/>
+                    <attribute id="UUID" type="guid" value="cd0bfc97-4a8a-4349-958c-a89f1d0e273d"/>
+                </node>
+                <node id="PassiveList"><!--8th Level-->
+                    <attribute id="Passives" type="LSString" value="MysticArcanum_LVL8_PowerWordStun_SLFE;"/>
+                    <attribute id="UUID" type="guid" value="716308bb-dce0-4a34-8f4d-3f0aa51d0259"/>
+                </node>
+                <node id="PassiveList"><!--9th Level-->
+                    <attribute id="Passives" type="LSString" value="MysticArcanum_LVL9_PowerWordKill_SLFE;"/>
+                    <attribute id="UUID" type="guid" value="fcd6e2f3-2320-4efc-9deb-eaa61bb15049"/>
+                </node>
+                <node id="PassiveList"><!--10th Level-->
+                    <attribute id="Passives" type="LSString" value=""/>
+                    <attribute id="UUID" type="guid" value="69905c97-0881-4e04-baa6-4a9e3af5c5d7"/>
+                </node>
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Warlock - Undead   --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->		
+                <node id="PassiveList"><!--Form Of Dread-->
+                    <attribute id="Passives" type="LSString" value="Undead_FormOfDread_Vampire_SLFE,Undead_FormOfDread_Lich_SLFE,Undead_FormOfDread_Revenant_SLFE,Undead_FormOfDread_Mummy_SLFE,Undead_FormOfDread_DeathKnight_SLFE"/>
+                    <attribute id="UUID" type="guid" value="02658895-76e1-4fe7-88de-22eea4718def"/>
+                </node>	
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Warlock - Genie  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->		
+                <node id="PassiveList"><!--Genie Kind-->
+                    <attribute id="Passives" type="LSString" value="Genie_Dao_SLFE,Genie_Djinni_SLFE,Genie_Efreeti_SLFE,Genie_Marid_SLFE"/>
+                    <attribute id="UUID" type="guid" value="0e5ec5f0-8883-4c25-9aa1-0af6b5c71c5e"/>
+                </node>	
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Sorcerer - Wretched Bloodline --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->					
+                <node id="PassiveList"><!--Wretched Curse-->
+                    <attribute id="Passives" type="LSString" value="WretchedCurse_Hulking,WretchedCurse_Nocturnal,"/>
+                    <attribute id="UUID" type="guid" value="4b702167-cb9a-4bd0-9f40-3a950bafd306"/>
+                </node>						
+            </children>
+        </node>
+    </region>
+</save>

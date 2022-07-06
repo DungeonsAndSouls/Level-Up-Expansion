@@ -1,0 +1,1978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="0" build="47"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Bard - Class --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="8"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="StartingEquipment_Artificer"/>
+                    <attribute id="Description" type="FixedString" value="The greatest strength of bards is their sheer versatility. Many bards prefer to stick to the sidelines in combat, using their magic to inspire their allies and hinder their foes from a distance. But bards are capable of defending themselves in melee if necessary, using their magic to bolster their swords and armor. Their spells lean toward charms and illusions rather than blatantly destructive spells. They have a wide-ranging knowledge of many subjects and a natural aptitude that lets them do almost anything well. Bards become masters of the talents they set their minds to perfecting, from musical performance to esoteric knowledge."/>
+                    <attribute id="DisplayName" type="FixedString" value="Bard"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Bard"/>
+                    <attribute id="ParentGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="416fd70f-8a96-4e31-8887-26863e1ce8a9"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="a6d646f7-6011-4f34-bb39-e720745e602a"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. "/>
+                    <attribute id="DisplayName" type="FixedString" value="College of Lore"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="CollegeofLore"/>
+                    <attribute id="ParentGuid" type="guid" value="a6d646f7-6011-4f34-bb39-e720745e602a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="b50cc169-b503-4f3e-b915-07966b10b70a"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="aaff0aae-2d25-4531-a75a-13c184401bee"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. "/>
+                    <attribute id="DisplayName" type="FixedString" value="College of Valor"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="CollegeofValor"/>
+                    <attribute id="ParentGuid" type="guid" value="a6d646f7-6011-4f34-bb39-e720745e602a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="04178dc6-9947-4fce-8174-e03c17820838"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="ff9e74bb-6b53-47fe-9e91-90794a05de9d"/>
+                </node>	
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Druid - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="ClassDescriptions_New_Stat_20_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="ClassDescriptions_New_Stat_20_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="CircleOfTheLand"/>
+                    <attribute id="ParentGuid" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ba1f14d6-d40b-47ce-b071-91b491d87b27"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="7458da78-34b7-4150-a42f-37197ab04510"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="ClassDescriptions_New_Stat_21_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="ClassDescriptions_New_Stat_21_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="CircleOfTheMoon"/>
+                    <attribute id="ParentGuid" type="guid" value="457d0a6e-9da8-4f95-a225-18382f0e94b5"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ede8583c-434b-4fb2-87a8-af8e0e239d62"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="3eab0689-e51b-4634-a690-0375d3cb2716"/>
+                </node>	
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Barbarian - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_27_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_27_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="BerserkerPath"/>
+                    <attribute id="ParentGuid" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="b2a03b63-809f-4df9-a179-bf5b899082ef"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="32eee7d8-1b2f-4de5-b9ee-78fbd286c6ef"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="ac3449f7-c09b-4bc0-8634-fcff97d49279"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_28_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_28_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="TotemWarriorPath"/>
+                    <attribute id="ParentGuid" type="guid" value="d8cadb42-0ff9-4049-afaf-e5d78d06a399"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="48f1760f-86e7-401c-ad52-633fffbae49e"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="2e585948-d775-451d-b58b-15b75321d11e"/>
+                </node>
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Fighter - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_6_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_6_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="BattleMaster"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="69eb2e41-0317-46d7-a6b6-3593de1a5220"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="e668c6f1-5149-4b10-ab7e-3637ed444066"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_7_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_7_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="EldritchKnight"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="2db3f02e-dfa9-4235-b9bd-28a89bf41435"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="b722614a-303f-411a-bb19-a1882ad1f4cc"/>
+                </node>					
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="A mysterious and feared frontline warrior of the Kryn Dynasty, the Echo Knight has mastered the art of using dunamis to summon the fading shades of unrealized timelines to aid them in battle. Surrounded by echoes of their own might, they charge into the fray as a cycling swarm of shadows and strikes."/>
+                    <attribute id="DisplayName" type="FixedString" value="Echo Knight"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="EchoKnight"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="79fd947e-1ce4-423b-b52c-aa7f20aa2a90"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="0014c6ba-96dc-46fd-a6eb-3feb04de8513"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Arcane Archer"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="ArcaneArcher"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="29f87613-dfac-4428-95ab-5fdc56b12a9a"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="776009ea-163c-4ce7-949c-319dc9c45d35"/>
+                </node>						
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows."/>
+                    <attribute id="DisplayName" type="FixedString" value="Champion"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Champion"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="519d5550-a25d-49c0-adac-bcde31531bc4"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="97984ec2-13fc-45de-aa3c-f7e5293cba6f"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="This archetype focuses on the ability to design, craft, and utilize powerful, yet dangerous ranged weapons. Through creative innovation and immaculate aim, you become a distant force of death on the battlefield. However, not being a perfect science, firearms carry an inherent instability that can occasionally leave you without a functional means of attack. This is the danger of new, untested technologies in a world where the arcane energies that rule the elements are ever present."/>
+                    <attribute id="DisplayName" type="FixedString" value="Gunslinger"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Gunslinger"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="34ae9d01-a0b2-44b6-8ea6-932c76301c40"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="54a760f3-6749-498e-9cdc-acdcedf0b4de"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Awake to the psionic power within, a Psi Warrior is a fighter who augments their physical might with psi-infused weapon strikes, telekinetic lashes, and barriers of mental force."/>
+                    <attribute id="DisplayName" type="FixedString" value="Psi Warrior"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="PsiWarrior"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="99ea3e5a-6c36-42f6-8c11-9c51e2b7c026"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="35b3fbd4-95ec-4c04-9848-5138fe1f6607"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Purple Dragon knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond their kingdom’s borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers."/>
+                    <attribute id="DisplayName" type="FixedString" value="Purple Dragon knight"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="PurpleDragonKnight"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="eff53c79-6980-4e0a-a33a-1fb179af9213"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="2f3e2765-2ce3-4475-aff1-3ca69006c75c"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant’s work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant’s craft and learned how to apply magic runes to empower your equipment."/>
+                    <attribute id="DisplayName" type="FixedString" value="Rune Knight"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="RuneKnight"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="7a87e6fd-9c92-4a3e-9a5d-42359124fcac"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="490c90a8-cf6b-4a55-bd64-7464fffac03f"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai’s resolve is nearly unbreakable, and the enemies in a Samurai’s path have two choices: yield or die fighting."/>
+                    <attribute id="DisplayName" type="FixedString" value="Samurai"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Samurai"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232f"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ccbf01fb-f87c-41fc-9ab4-aba47fda5597"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="f362bf18-43fb-4762-8ba5-d0fec5a33828"/>
+                </node>		
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Ranger - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_4_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_4_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="BeastMaster"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="1ba04e99-e329-471d-a656-bbd5a363d7c8"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="6fd9547d-cc28-400e-bfa9-3a85baa70f24"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_5_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_5_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Hunter"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="b19bc1ec-d7ee-4023-9f58-5056fd99be24"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="0aa1cff9-c45f-4d00-a95b-99a7aa96dd06"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse — especially benevolent dragons, fey, and elementals — that work to preserve life and the order of the planes."/>
+                    <attribute id="DisplayName" type="FixedString" value="Horizen Walker"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="HorizenWalker"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ddc6dbdc-2bf9-4a58-b6ec-95a6e2104b71"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="5e2116d6-f221-451c-9dec-62a4160f1901"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Drakewardens are rangers who use their magical connection with nature to form an enduring bond with a minor dragon, a drake. This bond allows the ranger to summon the drake to their side and to share in the awe-inspiring power wielded by dragons."/>
+                    <attribute id="DisplayName" type="FixedString" value="Drake Warden"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="DrakeWarden"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="5af1eb8e-1664-4b0d-9973-6c1af3f1d4ed"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="ab435ad2-1cfc-425d-bf61-af3185d36b05"/>
+                </node>						
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms."/>
+                    <attribute id="DisplayName" type="FixedString" value="Fey Wanderer"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="FeyWanderer"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="9a670090-ab33-4feb-887a-846fd7bd7f65"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="314c113c-5be2-4892-b153-cb91c0cca6bc"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world."/>
+                    <attribute id="DisplayName" type="FixedString" value="Gloom Stalker"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="GloomStalker"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="96a1491c-c15d-43e7-97cf-b1248fde3e6f"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="0e7a7772-6d3a-4d2d-afc0-3bae8d7e060d"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes."/>
+                    <attribute id="DisplayName" type="FixedString" value="Monster Slayer"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="MonsterSlayer"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="0f99aa07-f9ac-406b-8582-b8ca5d3bedfc"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="56085eeb-e127-4e79-9407-fea4e4ae8053"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Swarm Keeper"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="SwarmKeeper"/>
+                    <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="699d96ab-d473-4f1c-a3c6-384b25bc55f7"/>
+                    <attribute id="SoundMagicType" type="uint8" value="4"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="953de9de-ff93-459d-947e-3243fb20680e"/>
+                </node>			
+
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Cleric - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_10_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_10_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="LifeDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="9b56beb6-2a68-42a4-b81b-7a890a1b6b99"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="4b5da2f5-b999-4623-8bff-a63df5560fb3"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_11_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_11_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="LightDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="6ec6caad-2dfa-4661-8edd-5c4eca0e044c"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="c54d7591-b305-4f22-b2a7-1bf5c4a3470a"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_18_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_18_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="TrickeryDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="044e4e07-6980-479f-80e5-3c4a84e691d1"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="f013d01b-3310-43f7-81bf-a51130442b5e"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately."/>
+                    <attribute id="DisplayName" type="FixedString" value="Arcana Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="ArcanaDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ceb00f56-9a66-4b79-a225-846603acd30a"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="0be1b926-06e4-4e31-a457-740b5a3aa8d5"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Death Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="DeathDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="cbd632bb-999d-43b6-ba0e-4d234da850bb"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="34cf5a63-d7d0-4f2d-91d6-174d57a74f26"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately."/>
+                    <attribute id="DisplayName" type="FixedString" value="Forge Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="ForgeDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="0aa0cf13-0b36-4428-a3e8-166dce8f4ad2"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="6b343a28-432c-49d1-aad1-21f03241cbee"/>
+                </node>			
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse. To desecrate the peace of the dead is an abomination. Deities of the grave include Kelemvor, Wee Jas, the ancestral spirits of the Undying Court, Hades, Anubis, and Osiris. Followers of these deities seek to put wandering spirits to rest, destroy the undead, and ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due."/>
+                    <attribute id="DisplayName" type="FixedString" value="Grave Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="GraveDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="7683c9a2-63ab-42dc-80c0-ed134a93fcc1"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="f78059bf-3832-4f4d-ac46-57a8651620c4"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can."/>
+                    <attribute id="DisplayName" type="FixedString" value="Knowledge Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="KnowledgeDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="db53cdb1-3241-4d4b-8e52-fbcbaadb5b6f"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="8bbe4bd8-0845-4842-9a09-2e07de78a0c3"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods."/>
+                    <attribute id="DisplayName" type="FixedString" value="Nature Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="NatureDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="e67beec7-44f3-4010-aea8-c7a2ee724eb9"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="128bad94-f918-46e1-b15c-b939e048bff8"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The Order Domain represents discipline, as well as devotion to the laws that govern a society, an institution, or a philosophy. Clerics of Order meditate on logic and justice as they serve their gods, examples of which appear in the Order Deities table."/>
+                    <attribute id="DisplayName" type="FixedString" value="Order Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="NatureDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="bdea2c5c-4c1c-47d7-9bf6-205adec17ca6"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="37cf8f73-e1f7-4f7d-9e23-f84f01ea51d7"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The balm of peace thrives at the heart of healthy communities, between friendly nations, and in the souls of the kindhearted. The gods of peace inspire people of all sorts to resolve conflict and to stand up against those forces that try to prevent peace from flourishing. See the Peace Deities table for a list of some of the gods associated with this domain."/>
+                    <attribute id="DisplayName" type="FixedString" value="Peace Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="PeaceDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="61051ffc-f785-4ace-96bb-24431d0a95ba"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="09421b16-ae30-4fea-9eb3-f9de68385523"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts."/>
+                    <attribute id="DisplayName" type="FixedString" value="Tempest Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="TempestDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="a2ff66c1-d508-4157-ab5a-3b7e6d1d89b9"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="fe6769a0-2b24-49d0-96b9-c676451483a4"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The twilit transition from light into darkness often brings calm and even joy, as the day’s labors end and the hours of rest begin. The darkness can also bring terrors, but the gods of twilight guard against the horrors of the night."/>
+                    <attribute id="DisplayName" type="FixedString" value="Twilight Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="TwilightDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="59a4ecba-6f0e-4c35-a1b4-10c6d27b7529"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="7c504b14-602f-42cb-8609-eb4ef77f9b0f"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers."/>
+                    <attribute id="DisplayName" type="FixedString" value="War Domain"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="WarDomain"/>
+                    <attribute id="ParentGuid" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="5"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="30717b9b-9104-47e3-860d-6f2c337302e8"/>
+                    <attribute id="SoundMagicType" type="uint8" value="1"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="2d80e06c-b16f-4760-b4c8-1598c249fd93"/>
+                </node>		
+
+
+
+
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Paladin  - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+
+
+
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Warlock - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_16_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_16_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Fiend"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="2700b42c-3b2f-4fc7-b881-4acc4f0a3a1f"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="8866db28-7dda-4fd6-93ed-20eca16314f0"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="fbe3ee5d-1bb8-4c0b-a18c-26386101a680"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_17_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_17_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="GreatOldOne"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="216e779e-3452-466c-933d-fb5723b90802"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="e1e4a21f-9405-46ec-81a0-ccc8d58d9736"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="cdad1fc1-352b-4441-82f2-73d8433e42ea"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You have made your pact with a mysterious entity from the Shadowfell — a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting."/>
+                    <attribute id="DisplayName" type="FixedString" value="Hexblade"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Hexblade"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="5222a7f4-d997-4d15-8c67-6eaabdc4ade1"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="43380d8f-974b-4402-bc70-7fe6abee7321"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being’s motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges."/>
+                    <attribute id="DisplayName" type="FixedString" value="Archfey"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Archfey"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="6ce33bc8-3a4d-4507-98ff-41bc0c86521b"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="fba41dfe-cb34-4ca9-b60a-71ba66926032"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, unicorn, or other entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse."/>
+                    <attribute id="DisplayName" type="FixedString" value="Celestial"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Celestial"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="f6336b96-8607-4ebe-bf82-46b904856383"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="e7020d47-71ba-42fa-9b98-57ce1998487c"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The Undead is an entity that resides in the dark corners of the multiverse. Your patron could be Acererak, Azalin, Lord Soth, Strahd, or some other ancient undead being. You may seek to gain knowledge from your patron’s countless lifetimes of experience, while it may see you as a piece of a centuries long plan."/>
+                    <attribute id="DisplayName" type="FixedString" value="Undead"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Undead"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="8424c6a6-5123-4f6b-a685-89380e3d3eeb"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="df10508a-256d-472f-b604-5c66f37711e8"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize—like all power—comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Undying"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Undying"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="b3ec5806-3391-4374-b629-669a0ffc77a0"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="4d47009b-bb44-436f-942c-18703de35a87"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You have made a pact with one of the rarest kinds of genie, a noble genie. Such entities rule vast fiefs on the Elemental Planes and have great influence over lesser genies and elemental creatures. Noble genies are varied in their motivations, but most are arrogant and wield power that rivals that of lesser deities. They delight in turning the table on mortals, who often bind genies into servitude, and readily enter into pacts that expand their reach."/>
+                    <attribute id="DisplayName" type="FixedString" value="Genie"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Genie"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="9ef7cfc7-b987-4f85-a8ac-d26f625f5acc"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="49e39da6-1812-49f8-bf74-8ebb1a10e25d"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You have plunged into a pact with the deeps. An entity of the ocean, the Elemental Plane of Water, or another otherworldly sea now allows you to draw on its thalassic power. Is it merely using you to learn about terrestrial realms, or does it want you to open cosmic floodgates and drown the world?"/>
+                    <attribute id="DisplayName" type="FixedString" value="Fathomless"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="2"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Fathomless"/>
+                    <attribute id="ParentGuid" type="guid" value="b4225a4b-4bbe-4d97-9e3c-4719dbd1487c"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="5a32d1e6-72e8-4437-8071-98da4ecc2080"/>
+                    <attribute id="SoundMagicType" type="uint8" value="3"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="3d0e8307-be5d-4eec-9b97-ea2ba06c666d"/>
+                </node>	
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Wizard - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->                                     
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_8_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_8_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="AbjurationSchool"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="9f0fd3ac-7520-45fa-9f7d-08b1ca6eacf3"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="e6a0eb75-7a01-4f40-8563-24ba2615e99b"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_9_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_9_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="EvocationSchool"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="953e6528-acd2-48b5-95e7-9d54ad555d39"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="c059dca1-c17d-4dce-8260-83ede5070eac"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory dunamis energy, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye."/>
+                    <attribute id="DisplayName" type="FixedString" value="Chronurgy"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="ChronurgyMagic"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="0ba90e90-5468-43b9-87a6-c8c5802d1f4e"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="54ed602b-fad8-404e-bbe4-dd8e6857dab1"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Understanding and mastering the forces that draw bodies of matter together or drive them apart, the students of the Graviturgy arcane tradition learn to further bend and manipulate the violent energy of gravity to their benefit, and the terrible detriment of their enemies."/>
+                    <attribute id="DisplayName" type="FixedString" value="Graviturgy"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="GraviturgyMagic"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="1cb21bdb-28c6-4a59-a2b3-130c71055a24"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="ec621f12-c48a-44a8-8019-775745af5d4e"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. As you progress, you learn to sap the life force from a creature as your magic destroys its body, transforming that vital energy into magical power you can manipulate."/>
+                    <attribute id="DisplayName" type="FixedString" value="Necromancer"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Necromancy"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="72dc42c5-e8d5-4cee-98f6-a208c9010fda"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="31508617-59b8-47b7-afda-90ac13d38a18"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Bladesingers master a tradition of wizardry that incorporates swordplay and dance. Originally created by elves, this tradition has been adopted by non-elf practitioners, who honor and expand on the elven ways. In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a bladesinger at work remember the display as one of the more beautiful experiences in their life, a glorious dance accompanied by a singing blade."/>
+                    <attribute id="DisplayName" type="FixedString" value="Bladesinging"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Bladesinging"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="3c7b3819-5ce5-4424-85f0-f004a73ea98d"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="007ac1fe-7ab3-46c4-876b-962e3dd9c795"/>
+                </node>	
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Illsuionist"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Illusion"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="e124da80-079f-486f-b57b-5a698f8b889c"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="fb2c9296-bd5a-4063-b2ac-60fda9701110"/>
+                </node>	
+
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight."/>
+                    <attribute id="DisplayName" type="FixedString" value="Divination"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="DivinationSchool"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="f5d60083-1beb-4d64-8672-f7d654a197e2"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="e22f2ece-1902-4e35-be94-e71e84cfc6f5"/>
+                </node>			
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between."/>
+                    <attribute id="DisplayName" type="FixedString" value="Enchantment"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="EnchantmentSchool"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="45905439-7ded-40f5-9301-2a5680be5dae"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="f0988498-8a44-4d58-85a2-37cd5f5ec186"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant."/>
+                    <attribute id="DisplayName" type="FixedString" value="Conjuration"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="ConurationSchool"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="7e7be1cc-79b4-4cdd-9b3b-a9d82a232881"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="8b4c5901-7b82-4157-89e0-d18db1bf55fe"/>
+                </node>									
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality’s forge."/>
+                    <attribute id="DisplayName" type="FixedString" value="Transmutation"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="TransmutationSchool"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="6fddd3a2-e8a6-4efd-b5c0-9a8a111175b1"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="76c613be-0385-40bc-b77f-9f191517c61e"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="true"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Followers of this tradition are known as war mages. They see their magic as both a weapon and armor, a resource superior to any piece of steel. War mages act fast in battle, using their spells to seize tactical control of a situation. Their spells strike hard, while their defensive skills foil their opponents’ attempts to counterattack. War mages are also adept at turning other spellcasters’ magical energy against them."/>
+                    <attribute id="DisplayName" type="FixedString" value="War Magic"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="WarMagic"/>
+                    <attribute id="ParentGuid" type="guid" value="a865965f-501b-46e9-9eaa-7748e8c04d09"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="515c5c96-63ae-402f-bd6f-fb8f91be6706"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="45ce6300-4c4f-4fde-b82c-f854ee4db5bf"/>
+                </node>			
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Sorcerer  - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_23_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_23_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="DraconicBloodline"/>
+                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="35aa255d-3eb7-4e93-8092-7545ced25b09"/>
+                    <attribute id="SoundMagicType" type="uint8" value="6"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="36286b0a-26f9-4b4e-9311-fd1404301d20"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="f6d0e042-5b90-41d8-ab4a-a2239e27a13e"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_24_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_24_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WildMagic"/>
+                    <attribute id="ParentGuid" type="guid" value="784001e2-c96d-4153-beb6-2adbef5abc92"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="6"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="dbf5281b-5a6e-486d-92db-ff67a0a3842b"/>
+                    <attribute id="SoundMagicType" type="uint8" value="6"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="6"/>
+                    <attribute id="UUID" type="guid" value="14374d37-a70e-41a8-9dc5-85a23f8b5dd2"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="885f8675-e400-4d53-924d-6204ff1d9558"/>
+                        </node>
+                    </children>
+                </node>			
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Monk - Class  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="8"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="StartingEquipment_Monk"/>
+                    <attribute id="Description" type="FixedString" value="Whatever their discipline, monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does."/>
+                    <attribute id="DisplayName" type="FixedString" value="Monk"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Monk"/>
+                    <attribute id="ParentGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="ba4e707e-4bbd-4630-963b-ce2f2947f97b"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="e1e460bb-d0ae-4452-8529-c9e176558731"/>
+                        </node>
+                    </children>
+                </node>
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians to the poor and hurt. However, to those beyond their help, they bring a swift end as an act of mercy."/>
+                    <attribute id="DisplayName" type="FixedString" value="Mercy"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfMercy"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="86731a27-d5ee-460d-a733-0437634f5787"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="a9cf3bc7-fa4d-4920-bdc8-e2c929ecc3dd"/>
+                </node>				
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadowdancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves’ guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students."/>
+                    <attribute id="DisplayName" type="FixedString" value="Shadow"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheShadow"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="91d7c558-5e3a-4e0f-8447-112b5d1689f5"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="08e7b646-3bf1-4ae4-8c8a-4cd24666227b"/>
+                </node>
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Monks who follow the Way of the Ascendant Dragon revere the power and grandeur of dragons. They alter their own ki to resonate with draconic might, channeling it to augment their prowess in battle, soar through the air, and to bolster their allies."/>
+                    <attribute id="DisplayName" type="FixedString" value="Ascendant Dragon"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheAscendantDragon"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="65261915-27d6-4810-9c7c-bb3c4a4b5015"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="d0c63269-9b00-4d17-82b0-4aaa3b5f1198"/>
+                </node>		
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="A monk who follows the Way of the Astral Self believes their body is an illusion. They see their ki as a representation of their true form, an astral self. This astral self has the capacity to be a force of order or disorder, with some monasteries training students to use their power to protect the weak and other instructing aspirants in how to manifest their true selves in service to the mighty. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Astral Self"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheAstralSelf"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="0b26c61b-20e1-494a-acf9-6dcd18b2f8eb"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="1c3f9dd6-feca-4c14-9393-a2c674db23a6"/>
+                </node>		
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The monks of the Cobalt Soul are the embodiment of the phrase “know your enemy”. Through research, they prepare themselves against the ever-coming tides of evil. Through careful training, they have learned to puncture and manipulate the spiritual flow of an opponent’s body. Through understanding the secrets of their foe, they can adapt and surmount them. Then, once the fight is done, they return to record their findings for future generations of monks to study from."/>
+                    <attribute id="DisplayName" type="FixedString" value="Cobalt Soul"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheCobaltSoul"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="941e5473-9817-4df0-8ab6-c1dfdcf28667"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="97bab755-cf1a-41d6-b73a-69c2db2a4677"/>
+                </node>					
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The Way of the Drunken Master teaches its students to move with the jerky, unpredictable movements of a drunkard. A drunken master sways, tottering on unsteady feet, to present what seems like an incompetent combatant who proves frustrating to engage. The drunken master’s erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats."/>
+                    <attribute id="DisplayName" type="FixedString" value="Drunken Master"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheDrunkenMaster"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="2d183d86-22be-48b6-9750-c0a1446f4787"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="127cd944-704a-4457-be9b-0f270557b60b"/>
+                </node>						
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together."/>
+                    <attribute id="DisplayName" type="FixedString" value="Four Elements"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheFourElements"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="5be8ccd2-4e31-4456-8116-b884d21910f5"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="7edf660c-6d48-46f0-bbd1-19cdf9da2e0f"/>
+                </node>
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Monks of the Way of the Kensei train relentlessly with their weapons, to the point where the weapon becomes an extension of the body. Founded on a mastery of sword fighting, the tradition has expanded to include many different weapons."/>
+                    <attribute id="DisplayName" type="FixedString" value="Kensei"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheKensei"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="099f740b-8205-4d7c-b2c1-9890307f666d"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="1db9b89f-d442-4f29-be07-8aa873cdfcd3"/>
+                </node>					
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They then use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style."/>
+                    <attribute id="DisplayName" type="FixedString" value="Long Death"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheLongDeath"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="dd913306-280c-4b27-a1de-b24d323a49e8"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="e2b004ed-5eb4-4db1-8b26-053a0d4143fd"/>
+                </node>
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm."/>
+                    <attribute id="DisplayName" type="FixedString" value="Open Hand"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheOpenHand"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="44074867-c350-46a0-9dc6-5bfb2325dda7"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="ceac6185-dc49-4f70-8cdc-d18fca04c2ea"/>
+                </node>
+				<node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Monks of the Way of the Sun Soul learn to channel their life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature."/>
+                    <attribute id="DisplayName" type="FixedString" value="Sun Soul"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="WayOfTheSunSoul"/>
+                    <attribute id="ParentGuid" type="guid" value="721dfac3-92d4-41f5-b773-b7072a86232b"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="af3cab2f-4d9b-48ee-b282-bec5bbe9109f"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="5"/>
+                    <attribute id="UUID" type="guid" value="eadad979-9344-40f3-ae5e-18bdb8b4404c"/>
+                </node>	
+
+
+
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Rogue - Subclass --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_15_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_15_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Thief"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="f6acc595-46b4-4d96-b7d5-6f33366fc2de"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="32c7b8df-a6ec-4848-a9db-c0dce781beb9"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="AnimationSubSet" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Shared_ClassDescriptions_New_Stat_14_Description"/>
+                    <attribute id="DisplayName" type="FixedString" value="Shared_ClassDescriptions_New_Stat_14_DisplayName"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Arcane Trickster"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="ede4778e-7602-440f-9075-b4bc8dc31cea"/>
+                </node>
+
+
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Many rogues walk a fine line between life and death, risking their own lives and taking the lives of others. While adventuring on that line, some rogues discover a mystical connection to death itself. These rogues take knowledge from the dead and become immersed in negative energy, eventually becoming like ghosts. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Phantom"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Phantom"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="20049338-dd9a-4edb-834c-2d37974f9018"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="e4d07723-a782-4c77-8907-c225724e8cb2"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your keen deductions make you well equipped to expose and end hidden evils."/>
+                    <attribute id="DisplayName" type="FixedString" value="Inquisitive"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Inquisitive"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="0b097ee0-242e-46bb-8668-4ef990a8a4c4"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="30fa5210-8dac-4c7a-902c-453375ee31e2"/>
+                </node>			
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures."/>
+                    <attribute id="DisplayName" type="FixedString" value="Mastermind"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Mastermind"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="56181fce-6ac7-48a9-a92a-fa7e53c179e4"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="eeaf288b-96d4-474a-b061-8cdcb7f1aa8d"/>
+                </node>						
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Scouts serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter — these are just a few of the roles that Scouts assume as they range the world."/>
+                    <attribute id="DisplayName" type="FixedString" value="Scout"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Scout"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="37894764-639e-4a6a-bb7b-3cec17ae3a66"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="77b17b01-df39-474d-bfe8-34678ea5277f"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Most assassins strike with physical weapons, and many burglars and spies use thieves’ tools to infiltrate secure locations. In contrast, a Soulknife strikes and infiltrates with the mind, cutting through barriers both physical and psychic. These rogues discover psionic power within themselves and channel it to do their roguish work. They find easy employment as members of thieves’ guilds, though they are often mistrusted by rogues who are leery of anyone using strange mind powers to conduct their business. Most governments would also be happy to employ a Soulknife as a spy."/>
+                    <attribute id="DisplayName" type="FixedString" value="Soulknife"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Soulknife"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="5b56fa90-0d29-4b6a-bf89-77c216598421"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="fdc1d56d-17b5-4830-ab40-d49330b87b4b"/>
+                </node>				
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance."/>
+                    <attribute id="DisplayName" type="FixedString" value="Swashbuckler"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Swashbuckler"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="65acb1a7-7e8c-45a1-bf4c-1c99301b437c"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="5f88f78b-2884-4434-9a7a-27c961183b15"/>
+                </node>			
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="You focus your training on the grim art of death. Those who adhere to this archetype are diverse: hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Assassin"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="Assassin"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="86c4eff9-0c90-4f7a-97d3-fb9a44fbdf11"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="0"/>
+                    <attribute id="UUID" type="guid" value="dfb9f52a-1e88-41ae-9ff4-67d222684061"/>
+                </node>	
+
+
+
+ <!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Artificer - Class  --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->               
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="8"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="StartingEquipment_Artificer"/>
+                    <attribute id="Description" type="FixedString" value="Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions."/>
+                    <attribute id="DisplayName" type="FixedString" value="Artificer"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="8"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Artificer"/>
+                    <attribute id="ParentGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="58f0253f-a933-4f7c-9918-d32efc3240b4"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="865317f6-148b-4d40-856b-0c71b1e6a4ee"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="6fe3ae27-dc6c-4fc9-9245-710c790c396c"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Alchemist"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Alchemist"/>
+                    <attribute id="ParentGuid" type="guid" value="865317f6-148b-4d40-856b-0c71b1e6a4ee"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="a4089ac8-cdd2-4451-9915-a445540b10f3"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="089adf56-5853-4372-922c-08b40da93d07"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer’s magic, unleash potent attacks, and generate a formidable defense."/>
+                    <attribute id="DisplayName" type="FixedString" value="Armorer"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Armorer"/>
+                    <attribute id="ParentGuid" type="guid" value="865317f6-148b-4d40-856b-0c71b1e6a4ee"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="64ca5c9e-a41e-49d0-ae63-d8eb30418af4"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="ff59aca6-f6d8-4087-989a-be22493fdff7"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="An Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield."/>
+                    <attribute id="DisplayName" type="FixedString" value="Artillerist"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="Artillerist"/>
+                    <attribute id="ParentGuid" type="guid" value="865317f6-148b-4d40-856b-0c71b1e6a4ee"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="7af5f4a4-ecde-471c-a3d4-16bd87bbfd38"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="05dbd102-cacb-404b-8d06-30bc8e2f4176"/>
+                </node>		
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="A combination  of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel. To aid in their work, Battle Smiths are usually accompanied by a steel defender, a protective companion of their own creation. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Battle Smith"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="true"/>
+                    <attribute id="Name" type="FixedString" value="BattleSmith"/>
+                    <attribute id="ParentGuid" type="guid" value="865317f6-148b-4d40-856b-0c71b1e6a4ee"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="4"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="28991773-3732-487b-ae47-ca132a7a89f2"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="ebb5d0a0-e0dd-46a3-a87c-759c6a271900"/>
+                </node>	
+
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+<!--------------------- Blood Hunter - Class --------------------->
+<!--<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>-->
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="10"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value="StartingEquipment_BloodHunter"/>
+                    <attribute id="Description" type="FixedString" value="Far from the judging eyes of society, blood hunters have mastered the secretive techniques of hemocraft, finding blood magic’s esoteric nature effective against evils that resist divine rebuke or arcane bindings. Through careful study and practice, blood hunters hone the rites of hemocraft into unique combat techniques."/>
+                    <attribute id="DisplayName" type="FixedString" value="Blood Hunter"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="5"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="BloodHunter"/>
+                    <attribute id="ParentGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="695b7ce8-0525-4881-8c4c-49fcf805afb9"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="333ad615-99bf-464c-842b-06194b3d1f1e"/>
+                    <children>
+                        <node id="Tags">
+                            <attribute id="Object" type="guid" value="1ae7017c-4884-4a43-bc4a-742fa0d201c0"/>
+                        </node>
+                    </children>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The Order of the Ghostslayer is the oldest of the blood hunter orders, its members having originally rediscovered the secrets of hemocraft and refined them for combat against the scourge of undeath. "/>
+                    <attribute id="DisplayName" type="FixedString" value="Ghostslayer Order"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="OrderoftheGhostslayer"/>
+                    <attribute id="ParentGuid" type="guid" value="333ad615-99bf-464c-842b-06194b3d1f1e"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="b796c264-7b27-416a-a44a-0391a2e027a4"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="462fdb1c-7e76-4207-8e91-38323902fc5e"/>
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="The ancient curse of lycanthropy is feared by nearly all peoples and cultures, passed through blood and seeding a host with the savage strength and hunger for violence of a wicked beast."/>
+                    <attribute id="DisplayName" type="FixedString" value="Lycan Order"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="OrderoftheLycan"/>
+                    <attribute id="ParentGuid" type="guid" value="333ad615-99bf-464c-842b-06194b3d1f1e"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="843eb3f2-5865-4a87-8c4c-28b7ca0ef775"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="fda9c9e7-129f-49e2-b25b-54e47c171fc9"/>	
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Over generations of experimentation, a splinter order of blood hunters honed the way in which hemocraft alters the body, using corrupted alchemy and toxic elixirs to alter their blood even further."/>
+                    <attribute id="DisplayName" type="FixedString" value="Mutant Order"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="OrderoftheMutant"/>
+                    <attribute id="ParentGuid" type="guid" value="333ad615-99bf-464c-842b-06194b3d1f1e"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="cf40170c-981b-4b57-b28f-746b9da9e863"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="97ff981a-c33d-4db9-a2c9-cc0069d58aa5"/>		
+                </node>
+                <node id="ClassDescription">
+                    <attribute id="BaseHp" type="int32" value="0"/>
+                    <attribute id="CanLearnSpells" type="bool" value="false"/>
+                    <attribute id="CharacterCreationPose" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="ClassEquipment" type="FixedString" value=""/>
+                    <attribute id="Description" type="FixedString" value="Blood hunters who founded this order trusted to their resilience as they delved into the same well of corrupting arcane knowledge, making pacts with lesser evils to better combat the greater threats. And though they might have traded a part of themselves for their power, the members of this order know the benefits of that power far outweigh the price."/>
+                    <attribute id="DisplayName" type="FixedString" value="Profane Soul Order"/>
+                    <attribute id="HasGod" type="bool" value="false"/>
+                    <attribute id="HpPerLevel" type="int32" value="0"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <attribute id="MagicType" type="uint8" value="1"/>
+                    <attribute id="MustPrepareSpells" type="bool" value="false"/>
+                    <attribute id="Name" type="FixedString" value="OrderoftheProfaneSoul"/>
+                    <attribute id="ParentGuid" type="guid" value="333ad615-99bf-464c-842b-06194b3d1f1e"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="1"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="cfee16b3-852f-42ef-ace5-5c42b9e132ec"/>
+                    <attribute id="SoundMagicType" type="uint8" value="5"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="UUID" type="guid" value="f75114b0-4c53-4b77-aa9e-ec59ce919df1"/>
+                </node>	
+            </children>
+        </node>
+    </region>
+</save>

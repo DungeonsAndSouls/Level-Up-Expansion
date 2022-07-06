@@ -1,0 +1,68 @@
+
+new equipment "StartingEquipment_BloodHunter"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "BloodHunter_Mail"
+add equipmentgroup
+add equipment entry "BloodHunter_Gauntlet"
+add equipmentgroup
+add equipment entry "BloodHunter_Boots"
+add equipmentgroup
+add equipment entry "BloodHunter_Mantle"
+add equipmentgroup
+add equipment entry "WPN_Greatsword"
+add equipmentgroup
+add equipment entry "WPN_LightCrossbow"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+
+new equipment "StartingEquipment_Artificer"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "Artificer_Aegis"
+add equipmentgroup
+add equipment entry "Artificer_Gauntlets"
+add equipmentgroup
+add equipment entry "Artificer_Boots"
+add equipmentgroup
+add equipment entry "WPN_LightCrossbow"
+add equipmentgroup
+add equipment entry "WPN_Quarterstaff"
+add equipmentgroup
+add equipment entry "WPN_LightHammer"
+add equipmentgroup
+add equipment entry "OBJ_Kit_ThievesTools"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+
+
+new equipment "StartingEquipment_Monk"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "Monk_Kasaya"
+add equipmentgroup
+add equipment entry "Monk_Feiyue"
+add equipmentgroup
+add equipment entry "Monk_WristGuard"
+add equipmentgroup
+add equipment entry "Monk_Shortsword"
+add equipmentgroup
+add equipment entry "WPN_Dart"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+
+
+
+
